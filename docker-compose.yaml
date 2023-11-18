@@ -1,0 +1,12 @@
+# docker-compose.yml
+version: '3'
+
+services:
+  backend:
+    build: ./bakery_project
+    ports:
+      - "8000:8000"
+  frontend:
+    build: ./bakery-dashboard
+    ports:
+      - "3000:3000"
