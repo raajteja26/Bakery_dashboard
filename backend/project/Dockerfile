@@ -14,6 +14,8 @@ COPY backend/project/requirements.txt .
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
+# copy entrypoint.sh
+COPY backend/project/entrypoint.sh /usr/src/app/entrypoint.sh
 # Copy the rest of the application code to the container
 COPY backend/project/ .
 
