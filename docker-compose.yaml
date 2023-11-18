@@ -16,8 +16,6 @@ services:
       dockerfile: backend/project/Dockerfile
     ports:
       - "8000:8000"
-    environment:
-      - DATABASE_URL=postgres://postgres:Raajteja@26@db:5432/postgres
     depends_on:
       - db
 
