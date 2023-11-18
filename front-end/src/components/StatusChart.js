@@ -48,7 +48,7 @@ const StatusChart = ({data}) => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="count" fill="#8884d8" background={{ fill: '#eee' }} />
+          <Bar dataKey="count" fill="#19BAE5" background={{ fill: '#eee' }} />
         </BarChart>
       </ResponsiveContainer>
     </div>

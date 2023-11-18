@@ -18,7 +18,9 @@
   
   .chart-col {
     background-color: white;
-    /* padding: 15px; */
+  }
+  .chart-row {
+    border-radius:20px;
   }
   
   
